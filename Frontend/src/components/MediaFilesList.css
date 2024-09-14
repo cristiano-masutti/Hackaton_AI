@@ -1,0 +1,54 @@
+/* MediaFilesList.css */
+
+.media-files-list {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f4f7f8;
+}
+
+.header {
+    font-size: 2rem;
+    color: #003c71;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.files-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.file-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.file-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-name {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+audio {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.loading,
+.error {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #003c71;
+}
