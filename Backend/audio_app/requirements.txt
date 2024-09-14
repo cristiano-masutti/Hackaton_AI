@@ -1,0 +1,6 @@
+!pip install git+https://github.com/m-bain/whisperX.git@78dcfaab51005aa703ee21375f81ed31bc248560
+!pip install --no-build-isolation nemo_toolkit[asr]==1.23.0
+!pip install --no-deps git+https://github.com/facebookresearch/demucs#egg=demucs
+!pip install git+https://github.com/oliverguhr/deepmultilingualpunctuation.git
+!pip install git+https://github.com/MahmoudAshraf97/ctc-forced-aligner.git
+!pip install huggingface_hub==0.23.5

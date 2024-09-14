@@ -302,6 +302,8 @@ typings/
 # Icon must end with two \r
 Icon
 
+newenv/
+newenv/*
 
 # Thumbnails
 ._*
@@ -321,3 +323,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+venv
+newenv
+*/__pycache__
